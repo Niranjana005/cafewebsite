@@ -1,0 +1,189 @@
+header {
+    background-color:#6d0b0b;
+    color:#fbf8f8f3;
+    padding:5px;
+    text-align: center;
+    border-bottom: 1px solid #444;
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+nav a {
+    color: rgb(229, 220, 220);
+    text-decoration:none;
+    font-size:18px;
+    font-weight:500;
+    padding: 8px 14px;
+    transition:0.3s;
+
+}
+nav  a:hover{
+    background-color:rgb(25, 24, 24);
+    color:rgb(236, 227, 227);
+    border-radius: 6px;
+}
+.hero{
+    height: 70vh;
+    background-image: url(https://wallpapers.com/images/hd/coffee-background-mxi5tjwxedm9bx0r.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color:rgb(149, 67, 5);
+    text-align: center;
+}
+.hero h2{
+    font-size:50px;
+    margin-bottom: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: initial;
+    font-weight: 1000;
+}
+.hero p{
+    font-size:25px;
+    width:60%;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: oblique;
+    font-weight:700;
+}
+.btn{
+    background-color: #f5d57f;
+    padding: 12px 20px;
+    color: black;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+.btn:hover{
+    background-color: white;
+    color: #111;
+    transition: 0.1s;
+}
+.Menu{
+    padding: 50px ;
+    background-color:#fbf9f4;
+    font-size: 20px;
+    
+}
+.Menu h1{
+    font-size: 45px;
+    margin-bottom: 40px;
+    color: #000;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 900;
+    text-decoration:solid;
+}
+.category-title{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 900;
+    color:#b53b3b;
+    margin-top:40px;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.Slider{
+    display:flex;
+    flex-wrap:nowrap;
+    gap: 25px;
+    overflow-x: auto;
+    padding: 20px ;
+    scroll-snap-type:mandatory;
+    scrollbar-width:none;
+    scroll-behavior: smooth;
+}
+.Slider::-webkit-scrollbar{
+    display: none;
+}
+.card{
+    min-width: 250px;
+    flex:0 0 250px;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+    scroll-snap-align: start;
+}
+.card h3{
+    color:#5a2a02;
+    margin-bottom: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 200;
+    font-style: oblique;
+}
+.card p{
+    color:#121111;
+    font-size: 18px;
+    line-height: 1.5;
+    margin:0;
+}
+.card span{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+    color:#7a3c03;
+}
+
+.contact{
+    padding:40px 20px;
+    background-color:rgb(244, 240, 240) ;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.contact h2{
+    padding:20px;
+    color:rgb(11, 11, 11);
+    font-size: 35px;
+    font-weight: 900;
+
+}
+.contact p{
+    font-size: 18px;
+    color:#131212;
+    margin:5px ;
+    
+}
+.contact-info p{
+    margin:8px 0;
+    margin-top: 15px;
+    
+}
+.contact .btn{
+margin-top:20px;
+background-color: #f5d57f;
+padding: 12px;
+color:black;
+text-decoration: none;
+border-radius: 8px;
+font-weight: bold;
+font-size:18px;
+transition: 0.2s;
+display:inline-block;
+
+}
+.contact .btn:hover{
+    background-color: white;
+    color:#111
+}
+footer{
+    background-color: #6d0b0b;
+    color: #fbf8f8f3;
+    text-align: center;
+    padding: 15px;
+    font-size: 18px;
+    margin-top: 30px;
+    border-top: 1px solid #444;
+}
+.container{
+    width:80%;
+    max-width:1100px;
+    margin:auto
+}
